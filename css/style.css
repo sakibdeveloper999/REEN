@@ -1,0 +1,291 @@
+/* ALL COMMON CSS TAG START */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.crl{
+    clear: both;
+}
+.mr{
+    margin-right: 0 !important;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+/* ALL COMMON CSS TAG END  */
+/* HEADER PART START  */
+.navbar-expand-lg .navbar-nav .nav-link {
+	color: #506a85;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 15px ;    
+}
+
+/* HEADER PART END */
+/* BANNER PART START  */
+#banner_part{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 300px 0;
+
+}
+.banner_text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 78px ;
+    color: #fff;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+.banner_text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #a3b1bf;
+    font-size: 24px;
+    line-height: 24px;
+   
+}
+.banner_text a{
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #00bc9c;
+    border-bottom: 1px solid #00a085;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* BANNER PART END */
+/* BLOG PART START  */
+#blog_part {
+    padding: 130px 0;
+    
+}
+.blog_text h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 44px ;
+    color: #506a85;
+    padding-bottom: 40px;
+}
+.blog_text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #73879c;
+    font-size: 22px;
+    line-height: 24px;
+}
+.blog_icon i{
+    font-size: 60px ;
+    color: #00bc9c;
+    
+}
+.blog_text h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #506a85;
+    padding-bottom: 35px ;
+}
+.blog_text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #73879c;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* BLOG PART END */
+/* CHECK OUT PART START  */
+#check_part{
+    padding: 130px 0;
+    background: #f2f5f7;
+}
+.check_text h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    color: #506a85;
+    padding-bottom: 45px ;
+}
+.check_text p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #73879c;
+    font-size: 22px;
+}
+
+.check_items_text{
+    padding: 35px 100px;
+    background: #fff;
+}
+.check_items_text h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #506a85;
+    padding-bottom: 15px;
+
+}
+.check_items_text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #73879c;
+    font-size: 14px;
+}
+/* CHECK OUT PART END  */
+/* GET IN TOUCH PART START */
+#get_touch_part{
+    padding: 130PX 0;
+    background: #fff;
+}
+.get_touch_text h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    color: #506a85;
+    padding-bottom: 15px;
+}
+.get_touch_text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #73879c;
+    font-size: 22px;
+    line-height: 24px;
+}
+.get_touch_text a{
+    padding-top: 20px;
+    padding-bottom: 19px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #00bc9c;
+    border-bottom: 1px solid #00a085;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+/* GET IN TOUCH PART END */
+
+/* FOOTER PART START   */
+#footer_part{
+    padding: 75px 0 ;
+    background: #2f4052;
+}
+.footer_items h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.footer_items p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 25px;
+}
+.footer_items a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: #a3b1bf;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.footer_items_tow h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.float-left{
+    float: left !important;
+}
+.footer_items_three h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.footer_items_three p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 25px ;
+}
+.footer_items_three ul li{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 22px;
+}
+.padding-left-none {
+    padding-left: 0px !important;
+}
+.footer_items_three ul li i{
+    padding-right: 8px;
+}
+.footer_items_four h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.footer_items_four p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #a3b1bf;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 25px ;
+}
+/* FOOTER PART END */
+/* FOOTER MANU START  */
+#footer_manu_part {
+    padding: 35PX 0;
+    background: #283645;
+}
+.footer_manu_text{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #707e8c;
+    font-size: 14px;
+}
+.footer_manu{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #707e8c;
+    font-size: 14px;
+}
+/* FOOTER MANU END */
